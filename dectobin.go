@@ -5,11 +5,11 @@ import (
 	"strconv"
 )
 
-var input int
-
 func main() {
-	fmt.Println("DectoBin!")
+	fmt.Println("Welcome to DectoBin!")
 	fmt.Println("Kindly Input Your Number")
+
+	var input int
 
 	fmt.Scan(&input)
 	n := int64(input)
